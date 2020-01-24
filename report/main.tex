@@ -1,10 +1,10 @@
 \title{A Modular GCD Algorithm}
 \author{
     Anna Hausberger \\
-	\href{mailto:me@somewhere.com}{me@somewhere.com}\\
+	\href{mailto:annaahausii@gmail.com}{annaahausii@gmail.com}\\
 	\and
     David Auinger \\
-	\href{mailto:me@somewhere.com}{me@somewhere.com}\\
+	\href{mailto:post@davidauinger.eu}{post@davidauinger.eu}\\
 	\and
     Bernhard Gstrein \\
 	\href{mailto:bernhard-gstrein@mailbox.org}{bernhard-gstrein@mailbox.org}\\
@@ -12,15 +12,20 @@
 \date{\today}
 
 \documentclass[12pt]{article}
+\usepackage{mathtools}
+\usepackage{amssymb}
 
 \input{texfiles/packages.tex}
 
 \begin{document}
 \maketitle
 
-\begin{abstract}
-We derive theory and implement a modular GCD algorithm.
+\begin{abstract}\noindent We investigate the basic theory of the modular method for GCD computations. Starting with a basic algorithm for integers, we transform it into a modular one. Furthermore, we dive into a modular algorithm to compute the GCD of univariate and multivariate polynomials. We implemented all algorithms and tested them. We carried out performance measurements on the modular integer GCD algorithm and compared it with the basic one.
 \end{abstract}
+
+\tableofcontents
+
+\newpage
 
 \input{texfiles/document.tex}
 

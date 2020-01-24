@@ -1,5 +1,5 @@
 % Setting a lower marigin than default
-\usepackage[margin=1.5in]{geometry}
+\usepackage[margin=1.4in]{geometry}
 
 % Package for theorems
 \usepackage{amsthm}
@@ -15,3 +15,21 @@
 
 % For custom enumerations, like (a), (b), (c)
 \usepackage{enumitem }
+
+% To be able to put in special characters like ä, ü, é
+\usepackage[utf8]{inputenc}
+
+\usepackage{csquotes}
+
+\usepackage{siunitx}
+
+% Let top 85% of a page contain a figure
+\renewcommand{\topfraction}{0.85}
+
+% To prevent tables from re-positioning themselves
+\usepackage{float}
+\restylefloat{table}
+
+% Decrease title top margin so we can fit a TOC in there
+\usepackage{titling}
+\setlength{\droptitle}{-0.6in}
